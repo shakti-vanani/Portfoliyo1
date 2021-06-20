@@ -13,7 +13,7 @@
     transition: all .2s linear;
 }
 *::selection{
-    background:yellow;
+    background:rgb(0, 255, 64);
     color: #333;
 }
 html{
@@ -27,7 +27,7 @@ html::-webkit-scrollbar-track{
     background: #222;
 }
 html::-webkit-scrollbar-thumb{
-   background: yellow;
+   background: rgb(0, 255, 64);
 }
 body{
     background: #111;
@@ -63,7 +63,7 @@ section{
 
 }
 .heading span{
-    color: yellow;
+    color: rgb(0, 255, 64);
 }
 header{
     position: fixed;
@@ -84,7 +84,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .5rem solid yellow;
+    border: .5rem solid rgb(0, 255, 64);
 }
 header .user .name{
     font-size: 3.5rem;
@@ -176,7 +176,7 @@ header .navbar ul li a:hover{
 }
 .about .row .counter .box span{
     font-size: 4rem;
-    color: yellow;
+    color: rgb(0, 255, 64);
 }
 .about .row .counter .box h3{
     font-size: 4rem;
@@ -184,7 +184,7 @@ header .navbar ul li a:hover{
 }
 .about .row .info h3{
     font-size: 2rem;
-    color: yellow;
+    color: rgb(0, 255, 64);
     padding: 1rem 0;
     font-weight: normal;
 }
