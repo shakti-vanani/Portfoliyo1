@@ -21,7 +21,7 @@ html{
     overflow: hidden;
 }
 html::-webkit-scrollbar{
-    width: 1.4rem;
+    width: 2.4rem;
 }
 html::-webkit-scrollbar-track{
     background: #222;
@@ -236,6 +236,11 @@ header .navbar ul li a:hover{
     header{
         width: 100vw;
     }
-   
+    .heading{
+        margin: 0 3rem;
+    }
+   .about .row .counter .box{
+       width: 100%;
+   }
  }
 
