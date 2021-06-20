@@ -13,7 +13,7 @@
     transition: all .2s linear;
 }
 *::selection{
-    background:rgb(0, 255, 64);
+    color: rgb(0, 255, 64);
     color: #333;
 }
 html{
@@ -27,7 +27,7 @@ html::-webkit-scrollbar-track{
     background: #222;
 }
 html::-webkit-scrollbar-thumb{
-   background: rgb(0, 255, 64);
+    color: rgb(0, 255, 64);
 }
 body{
     background: #111;
@@ -84,7 +84,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .5rem solid rgb(0, 255, 64);
+    border: .5rem solid rgb(0, 255, 0);
 }
 header .user .name{
     font-size: 3.5rem;
